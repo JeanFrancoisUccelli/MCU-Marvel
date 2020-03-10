@@ -15,11 +15,11 @@ html
     padding-top: 20px;
     height: 45px;
     width: 70px;
-    
+
 }
 h1
 {
-    
+
     text-shadow: 1px 3px red;
     font-family:'Roboto Slab' , serif ; 
     text-align: center;
@@ -38,13 +38,13 @@ h1 a
     background-color: #d59000;
     padding:16px;
     margin-top: 0;
-    
+
 }
 
 .listNav
 {
     font-family:'Roboto Slab' , serif ; 
-    
+
 }
 
 .aList
@@ -52,7 +52,7 @@ h1 a
     text-decoration: none;
     color: white;
     padding: 16px;
-    
+
 }
 
 .aList:hover
