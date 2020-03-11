@@ -7,12 +7,11 @@
 .imgcarousel{
   display: flex;
   align-self: center;
-  height: 35%;
-  object-fit: contain ;  
+  height: 400px;
+  width: 100%;
+  object-fit: cover ;   
 }
-.carousel-slide {
-  object-fit: cover;
-}
+
 
 #h1andImage{
   display: flex;
@@ -36,6 +35,7 @@ h1 a{
   text-decoration: none;
   color: white;
 }
+
 #navBar{
   list-style-type: none;
   display: flex;
@@ -51,6 +51,7 @@ h1 a{
   font-family:'Roboto Slab' , serif ; 
   text-decoration: none;
   color: white;
+  background-color: #d59000;
   padding: 16px;
   
 }
@@ -60,6 +61,8 @@ h1 a{
   border-radius:10px 10px 0px 0px;
   text-shadow: 2px 1px #d56900;
 }
+
+
 
 footer {
   background-color: #2d2a59;
