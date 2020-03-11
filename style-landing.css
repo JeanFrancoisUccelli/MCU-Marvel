@@ -2,6 +2,16 @@
 {
   background-color: #2D2A59 ;
 }
+/* Carousel images */
+.imgcarousel{
+  display: flex;
+  align-self: center;
+  height: 35%;
+  object-fit: contain ;  
+}
+.carousel-slide {
+  object-fit: cover;
+}
 
 #h1andImage{
   display: flex;
@@ -35,11 +45,6 @@ h1 a{
   
 }
 
-.listNav
-{
-  
-  
-}
 
 .aList{
   font-family:'Roboto Slab' , serif ; 
@@ -55,22 +60,13 @@ h1 a{
   text-shadow: 2px 1px #d56900;
 }
 
-/* Carousel images */
-
-.imgcarousel {
-  display: flex;
-  align-self: center;
-  height: 35%;
-  object-fit: cover ;  
-}
-
 footer {
   background-color: #2d2a59;
 }
 
 .footer-copyright {
  
-  font-size: 20px;
+  font-size: 8px;
   background-color: #2d2a59;
  
 
