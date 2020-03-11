@@ -1,33 +1,66 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Films</title>
     <link rel="stylesheet" href="films-style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Landing-page MCU project</title>
 </head>
-<body>
-       
-    <section>
-        <img class="bandeau" src= "https://cinemateaser.com/wordpress/wp-content/uploads/2010/04/BANDEAUIRONMANCHRONIQUE.jpg" alt= "bandeau">
-    </section>
 
-    <section>
-        <nav class="menu">
-            <div class="menu-left">
-                <h1 class="logo">MCU Project</h1>
+<body>
+    <div id="h1andImage">
+        <h1><a href="landing-page.html">MCU PROJECT</a></h1>
+        <img id="imageMarvel" src="https://www.firstcomicsnews.com/wp-content/uploads/2019/07/Marvel-Logo-600x272.png"
+            alt="image Marvel">
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="imgcarousel"
+                    src="https://www.jakpost.travel/wimages/large/5-56022_dual-avenger-wallpaper-4k-for-pc.jpg"
+                    class="d-block w-100" alt="personnages marvel">
             </div>
-            <div class="menu-right">
-                <a href="#" class="menu-link">Films</a>
-                <a href="#" class="menu-link">Chronologie</a>
-                <a href="#" class="menu-link">Articles</a>
+            <div class="carousel-item">
+                <img class="imgcarousel" src="https://wallpaperaccess.com/full/267469.jpg" class="d-block w-100"
+                    alt="Marvel heros">
             </div>
-        </nav>
-    
-    </section>
+            <div class="carousel-item">
+                <img class="imgcarousel" src="https://images3.alphacoders.com/100/1003925.jpg" class="d-block w-100"
+                    alt="logo rouge marvel">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <nav>
+        <ul id="navBar">
+            <li class="listNav"><a class="aList" href="films.html">Films</a></li>
+            <li class="listNav"><a class="aList" href="Personnages.html">Personnages</a></li>
+            <li class="listNav"><a class="aList" href="Chronologie.html">Chronologie</a></li>
+            <li class="listNav"><a class="aList" href="Articles.html">Articles</a></li>
+        </ul>
+    </nav>
 
     <section >
-        <article>
+        <div class="article">
             <img src="http://fr.web.img4.acsta.net/c_215_290/medias/nmedia/18/62/89/45/18876909.jpg"
                 alt="Iron Man">
             <div class="box">
@@ -36,9 +69,9 @@
                 / De Jon Favreau</p>
                 <p>Avec Robert Downey Jr., Terrence Howard, Gwyneth Paltrow</p>
                 <p>Le magnat de l'industrie, Tony Stark, lutte contre le mal. Pour cela, il est paré d'une armure hors du commun.</p>
-            </div>
-        </article>
-        <article>
+            </div>      
+        </div>
+        <div class="article">
             <img src="http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/65/69/21/18949753.jpg"
                 alt="L'Incroyable Hulk">
             <div class="box">
@@ -50,8 +83,8 @@
                 d'adrénaline et d'agressivité et dont les pouvoirs concordent avec ceux de Hulk. Une lutte digne des plus grands
                 comics...</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/70/45/28/19408942.jpg"
                 alt="Iron Man 2">
             <div class="box">
@@ -63,8 +96,8 @@
                 du public pour qu'il partage sa technologie avec l'armée, Tony n'est pas disposé à divulguer les secrets de son
                 armure...</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img4.acsta.net/c_215_290/medias/nmedia/18/77/96/35/19701393.jpg"
                 alt="Thor">
             <div class="box">
@@ -76,8 +109,8 @@
                 humains. Lorsque les forces du mal s’apprêtent à se déchaîner sur la Terre, Thor va apprendre à se comporter en
                 véritable héros…</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img5.acsta.net/c_215_290/medias/nmedia/18/84/69/36/19774937.jpg"
                 alt="Captain America: First Avenger">
             <div class="box">
@@ -89,8 +122,8 @@
                     menacée par
                     une invasion d'extraterrestres.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img4.acsta.net/c_215_290/medias/nmedia/18/85/31/58/20042068.jpg" alt="Avengers">
             <div class="box">
                 <h2>Avengers</h2>
@@ -103,8 +136,8 @@
                     Black Widow
                     répondent présents.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/91/08/37/20508296.jpg"
                 alt="Iron Man 3">
             <div class="box">
@@ -116,8 +149,8 @@
                 tous les fronts. Lorsque son univers personnel est détruit, Stark se lance dans une quête acharnée pour retrouver les
                 coupables.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img2.acsta.net/c_215_290/pictures/210/407/21040735_20130916181657638.jpg"
                 alt="Thor : Le Monde des ténèbres">
             <div class="box">
@@ -128,8 +161,8 @@
                 <p>Thor se bat pour restaurer l’ordre dans le cosmos, mais une ancienne race, sous la conduite du terrible Malekith, un
                 être assoiffé de vengeance, revient pour répandre les ténèbres.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img2.acsta.net/c_215_290/pictures/14/01/31/17/06/486036.jpg"
                 alt="Captain America : Le Soldat de l'hiver">
             <div class="box">
@@ -141,8 +174,8 @@
                 et essaye de s'adapter au monde moderne. Mais quand un collègue du S.H.I.E.L.D. est attaqué, Steve se retrouve impliqué
                 dans un réseau d'intrigues...</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img6.acsta.net/c_215_290/pictures/14/08/04/15/09/405662.jpg"
                 alt="Les Gardiens de la Galaxie">
             <div class="box">
@@ -154,8 +187,8 @@
                     menacée par
                     une invasion d'extraterrestres.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img5.acsta.net/c_215_290/pictures/15/02/24/18/29/161927.jpg"
                 alt="Avengers : L'Ère d'Ultron">
             <div class="box">
@@ -167,8 +200,8 @@
                 et les super-héros Iron Man, Captain America, Thor, Hulk, Black Widow et Hawkeye vont devoir à nouveau unir leurs forces
                 pour combattre le plus puissant de leurs adversaires : Ultron...</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img5.acsta.net/c_215_290/pictures/15/05/06/16/05/305731.jpg"
                 alt="Ant-Man">
             <div class="box">
@@ -179,8 +212,8 @@
                 <p>Scott Lang, cambrioleur de haut vol, va devoir apprendre à se comporter en héros et aider son mentor, le Dr Hank Pym, à
                 protéger le secret de son spectaculaire costume d’Ant-Man, afin d’affronter une effroyable menace…</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img6.acsta.net/c_215_290/pictures/16/03/11/09/46/182814.jpg"
                 alt="Captain America: Civil War">
             <div class="box">
@@ -192,8 +225,8 @@
                 interventions qui a causé d’importants dégâts collatéraux, le gouvernement décide de mettre en place un organisme de
                 commandement et de supervision...</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img3.acsta.net/c_215_290/pictures/16/09/09/08/57/518191.jpg"
                 alt="Doctor Strange">
             <div class="box">
@@ -204,8 +237,8 @@
                 <p>L’histoire d’un neurochirurgien, le Dr Stephen Strange, qui, après avoir été victime d’un horrible accident de la route,
                 découvre des dimensions parallèles et un univers fantastique.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img3.acsta.net/c_215_290/pictures/17/03/01/11/10/438835.jpg"
                 alt="Les Gardiens de la Galaxie Vol. 2">
             <div class="box">
@@ -217,8 +250,8 @@
                 Peter Quill. Les vieux ennemis vont devenir de nouveaux alliés et des personnages bien connus des fans de comics vont
                 venir aider nos héros et continuer à étendre l'univers Marvel.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img4.acsta.net/c_215_290/pictures/17/05/24/15/35/100661.jpg"
                 alt="Spider-Man: Homecoming">
             <div class="box">
@@ -230,8 +263,8 @@
                 Galvanisé par son expérience avec les Avengers, Peter rentre chez lui auprès de sa tante May, sous l’œil attentif de son
                 nouveau mentor, Tony Stark.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img4.acsta.net/c_215_290/pictures/17/08/24/17/34/098917.jpg"
                 alt="Thor: Ragnarok">
             <div class="box">
@@ -242,8 +275,8 @@
                 <p>Privé de son puissant marteau, Thor est retenu prisonnier sur une lointaine planète aux confins de l’univers. Pour
                 sauver Asgard, il va devoir lutter contre le temps afin d’empêcher l’impitoyable Hela d’accomplir le Ragnarök...</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img3.acsta.net/c_215_290/pictures/17/10/16/15/40/0883250.jpg"
                 alt="Black Panther">
             <div class="box">
@@ -255,8 +288,8 @@
                 Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain
                 qu’en tant que Black Panther.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img6.acsta.net/c_215_290/pictures/18/03/16/14/42/0611719.jpg"
                 alt="Avengers: Infinity War">
             <div class="box">
@@ -267,8 +300,8 @@
                 <p>Les Avengers et leurs alliés devront être prêts à tout sacrifier pour neutraliser le redoutable Thanos avant que son
                 attaque éclair ne conduise à la destruction complète de l’univers.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img6.acsta.net/c_215_290/pictures/18/06/08/14/35/0842353.jpg"
                 alt="Ant-Man et la Guêpe">
             <div class="box">
@@ -280,8 +313,8 @@
                 conséquences de ses choix tournent court lorsque Hope van Dyne et le Dr Hank Pym lui confient une nouvelle mission
                 urgente… Scott va devoir renfiler son costume et apprendre à se battre aux côtés de La Guêpe.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img3.acsta.net/c_215_290/pictures/18/12/03/08/53/5968896.jpg"
                 alt="Les Gardiens de la Galaxie">
             <div class="box">
@@ -292,8 +325,8 @@
                 <p>Carol Danvers, une superhéroïne chargée de sauver la destinée de la Terre, au coeur dune guerre intergalactique
                 d'aliens.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img3.acsta.net/c_215_290/pictures/19/04/04/09/04/0472053.jpg"
                 alt="Avengers: Endgame">
             <div class="box">
@@ -304,8 +337,8 @@
                 <p>Thanos ayant anéanti la moitié de l’univers, les Avengers restants resserrent les rangs dans ce vingt-deuxième film des
                 Studios Marvel, grande conclusion d’un des chapitres de l’Univers Cinématographique Marvel.</p>
             </div>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <img src="http://fr.web.img6.acsta.net/c_215_290/pictures/19/06/13/15/28/4575985.jpg"
                 alt="Spider-Man: Far From Home">
             <div class="box">
@@ -317,12 +350,85 @@
                 en Europe. Cependant, le projet de Peter de laisser son costume de super-héros derrière lui pendant quelques semaines
                 est rapidement compromis quand il accepte à contrecoeur d'aider Nick Fury à découvrir le mystère de ...</p>
             </div>
-        </article>
+        </div>
         
 
     </section>
-    <hr class="hr">
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        
+        <footer class="page-footer font-small darken-3">
+        
+            <!-- Footer Elements -->
+            <div class="container">
+        
+                <!-- Grid row-->
+                <div class="row">
+        
+                    <!-- Grid column -->
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center">
+        
+                            <!-- Facebook -->
+                            <a class="fb-ic" href="http://www.facebook.com">
+                                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic" href="http://www.twitter.com">
+                                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!-- Google +-->
+                            <a class="gplus-ic" href="http://www.google.fr">
+                                <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!--Linkedin -->
+                            <a class="li-ic" href="http://linkedin.com">
+                                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic" href="http://www.instagram.com">
+                                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!--Pinterest-->
+                            <a class="pin-ic" href="http://pinterest.com">
+                                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+        
+                </div>
+                <!-- Grid row-->
+        
+            </div>
+            <!-- Footer Elements -->
+        
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                Jo Antho David Jeff</a>
+            </div>
+            <!-- Copyright -->
+        
+        </footer>
+        <!-- Footer -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
 </body>
+<!-- Footer -->
+
 
 </html>
