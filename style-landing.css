@@ -11,7 +11,6 @@
   object-fit: cover ;   
 }
 
-
 #h1andImage{
   display: flex;
   flex-direction: row;
