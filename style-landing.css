@@ -2,7 +2,6 @@
 {
   background-color: #2D2A59 ;
 }
-
 /* Carousel images */
 .imgcarousel{
   display: flex;
@@ -11,6 +10,7 @@
   width: 100%;
   object-fit: cover ;   
 }
+
 
 #h1andImage{
   display: flex;
@@ -35,23 +35,22 @@ h1 a{
   color: white;
 }
 
-
-
 #navBar{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   background-color: #d59000;
   padding:16px;
-
+  margin-top: 0;
+  
 }
-
 
 
 .aList{
   font-family:'Roboto Slab' , serif ; 
   text-decoration: none;
   color: white;
+  background-color: #d59000;
   padding: 16px;
   
 }
@@ -62,12 +61,16 @@ h1 a{
   text-shadow: 2px 1px #d56900;
 }
 
+
+
 footer {
   background-color: #2d2a59;
 }
 
 .footer-copyright {
  
-  font-size: 20px;
+  font-size: 8px;
   background-color: #2d2a59;
+ 
+
 }
