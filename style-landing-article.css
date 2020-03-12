@@ -42,7 +42,7 @@ h1 a{
   display: flex;
   justify-content: space-around;
   background-color: #d59000;
-  padding:16px;
+  padding:16px; margin-bottom: 0;
 
 }
 
@@ -70,4 +70,7 @@ footer {
  
   font-size: 20px;
   background-color: #2d2a59;
+}
+.h1-responsive {
+margin-bottom: 0;
 }
