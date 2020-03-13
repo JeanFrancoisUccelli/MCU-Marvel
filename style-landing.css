@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-/* *
-
-body {
-  background-color: #2D2A59;
-}
-
-/* .carouselslide {
-  display: flex;
-  object-fit: inherit;
-} */
-/* images du slide coupées  */
-img {
-  display: flex;
-  align-self: center;
-  height: 35%;
-  object-fit: cover ;
-     
-=======
 *
 {
   background-color: #2D2A59 ;
@@ -34,6 +15,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: 1px;
 }
 
 #imageMarvel{
@@ -52,13 +34,12 @@ h1 a{
   text-decoration: none;
   color: white;
 }
-
 #navBar{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   background-color: #d59000;
-  padding:14px;
+  padding:15px;
   margin-bottom: 0;
   
 }
@@ -66,9 +47,10 @@ h1 a{
 
 .aList{
   
-  font-family:'Roboto Slab' , serif ; 
+  font-family: Roboto Slab; 
   text-decoration: none;
   color: white;
+  font-weight: bolder;
   background-color: #d59000;
   padding: 16px;
   
@@ -191,5 +173,4 @@ footer {
   background-color: #2d2a59;
  
 
->>>>>>> 09f75567e57819d4eb171d5e26351175567acb75
 }
