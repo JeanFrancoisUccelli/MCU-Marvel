@@ -86,11 +86,33 @@ h1 a
     padding-bottom:80px ;
 }
 
-#presentationText
+#imgAllHeros
 {
+  display: block;
+  margin: auto;
+  height: 600px;
+  width:90%;
+}
+
+h4
+{
+  padding-bottom:20px ;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+#presentationText
+{ 
+  display: block;
+  width: 90%;
+  margin-left:auto ;
+  margin-right:auto ;
+  padding-bottom:40px ;
   font-family:'Roboto Slab' , serif ;
   color: white;
   margin-bottom: 0;
+  
 }
 
 #imgAllGem
@@ -153,7 +175,7 @@ h1 a
     text-align: center;
     width: 50px;
     height: 50px;
-    margin: 25px auto 10px auto;
+    margin: 30px auto 10px auto;
     background-color:red;
     border-style: solid;
     border-color: white;
@@ -273,6 +295,35 @@ h1 a
     text-align: center;
     margin-bottom: 0;
     padding-top: 40px;
+}
+
+#imgAllHeros
+{
+  display: block;
+  margin: auto;
+  height: 400px;
+  width:90%;
+}
+
+h4
+{
+  padding-bottom:20px ;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+#presentationText
+{ 
+  display: block;
+  width: 90%;
+  margin-left:auto ;
+  margin-right:auto ;
+  padding-bottom:40px ;
+  font-family:'Roboto Slab' , serif ;
+  color: white;
+  margin-bottom: 0;
+  
 }
 
 #imgAllGem
