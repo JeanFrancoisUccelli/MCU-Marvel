@@ -30,7 +30,6 @@ img {
   object-fit: cover ;   
 }
 
-
 #h1andImage{
   display: flex;
   flex-direction: row;
@@ -59,13 +58,14 @@ h1 a{
   display: flex;
   justify-content: space-around;
   background-color: #d59000;
-  padding:16px;
-  margin-top: 0;
+  padding:14px;
+  margin-bottom: 0;
   
 }
 
 
 .aList{
+  
   font-family:'Roboto Slab' , serif ; 
   text-decoration: none;
   color: white;
@@ -76,10 +76,109 @@ h1 a{
 
 .aList:hover{
   background-color:#2D2A59 ;
-  border-radius:10px 10px 0px 0px;
   text-shadow: 2px 1px #d56900;
 }
 
+.container-articles {
+  display: flex; 
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.col-sm-articles {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 1.3rem;
+}
+
+.img-articles {
+  display: flex; 
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  width: 25rem;
+}
+h3 {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  padding: 1%;
+  font-family: "source sans pro", sans-serif ;
+}
+a.button2 {
+  display:flex;
+  justify-self: flex-end;
+  padding:0.5rem 3rem;
+  border:0.1rem solid #FFFFFF;
+  margin:auto;
+  border-radius: 0.5rem;
+  box-sizing: content-box;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-family:'Roboto',sans-serif;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.15s;
+  }
+a.button2:hover{
+  color:#DDDDDD;
+  border-color:#DDDDDD;
+  }
+a.button2:active{
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+  }
+@media only screen and (max-width: 450px){
+  a.button2 {
+    display:flex;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    padding: 0.5rem;
+    margin:0.4rem auto;
+  }
+  .col-sm-articles {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    color: white;
+    padding: 1.3rem;
+  }
+  .img-articles {
+    height: 6rem;
+    width: 12rem;
+  }
+  h3 {
+    font-size: -60%;
+    }
+    #navBar{
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      flex-flow: wrap ;
+      background-color: #d59000;
+      padding: 16px;
+      margin: auto;
+      margin-bottom: 0;
+    }  
+  .aList {
+    display: flex;
+    margin:auto;
+    font-size: 1rem;
+
+  } 
+  #h1andImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #imageMarvel{
+    margin: auto;
+    padding: 0.1rem;
+    width: 5rem;
+    
+  }
+ }
 
 
 footer {
