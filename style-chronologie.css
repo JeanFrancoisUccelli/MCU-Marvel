@@ -1,0 +1,428 @@
+@media screen and (min-width:1010px)
+{
+*
+{
+    background-color: #2D2A59 ;
+  
+}
+
+/* Carousel images */
+h1,h2,h3,p
+{
+    font-family:'Roboto Slab' , serif ;
+}
+
+.imgcarousel
+{
+  display: flex;
+  align-self: center;
+  height: 400px;
+  width: 100%;
+  object-fit: cover ;   
+}
+
+
+#h1andImage
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#imageMarvel
+{
+  padding-top: 20px;
+  height: 45px;
+  width: 70px;
+  
+}
+h1 
+{
+  text-shadow: 1px 3px red;
+  font-family:'Roboto Slab' , serif ; 
+  text-align: center;
+  margin-right: 5px;
+}
+h1 a
+{
+  text-decoration: none;
+  color: white;
+}
+
+#navBar
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d59000;
+  padding:16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+
+.aList{
+  font-family: Roboto Slab; 
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  background-color: #d59000;
+  padding: 16px;
+}
+
+.aList:hover{
+  background-color:#2D2A59 ;
+  border-radius:10px 10px 0px 0px;
+  text-shadow: 2px 1px #d56900;
+}
+#titleChrono
+{
+    color: white;
+    font-family:'Roboto Slab' , serif ;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-bottom:80px ;
+}
+
+#imgAllHeros
+{
+  display: block;
+  margin: auto;
+  height: 600px;
+  width:90%;
+}
+
+h4
+{
+  padding-bottom:20px ;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+#presentationText
+{ 
+  display: block;
+  width: 90%;
+  margin-left:auto ;
+  margin-right:auto ;
+  padding-bottom:40px ;
+  font-family:'Roboto Slab' , serif ;
+  color: white;
+  margin-bottom: 0;
+  
+}
+
+#imgAllGem
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0;
+  position: sticky;
+  top:0px;
+
+}
+
+.imgGem
+{
+  width:65px;
+  height:65px;  
+}
+
+#selectNbChrono
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top:64px;
+  
+}
+.nbChrono
+{
+  color: gray;
+  font-size:10px;
+  width: 65px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.rowBandeAnnonce
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:50px;
+    
+}
+
+.bandeannonce
+{
+    height:300px ;
+    width: 500px;
+    box-shadow:5px 5px 10px black ;
+    border:1px black solid ;
+
+}
+
+.chronoNumber
+{
+    font-weight: bold;
+    color: white;
+    line-height:45px ;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 30px auto 10px auto;
+    background-color:red;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    font-size:x-large;
+   
+}
+.titleFilmChrono
+{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#titleFilm10
+{
+    font-size: 26px;
+}
+
+
+footer 
+{
+  background-color: #2d2a59;
+}
+
+.footer-copyright 
+{
+ 
+  font-size: 8px;
+  background-color: #2d2a59;
+ 
+
+}
+
+}
+
+@media screen and (max-width:1010px){
+  *
+{
+    background-color: #2D2A59 ;
+  
+}
+
+/* Carousel images */
+h1,h2,h3
+{
+    font-family:'Roboto Slab' , serif ;
+}
+
+.imgcarousel
+{
+  display: flex;
+  align-self: center;
+  height: 400px;
+  width: 100%;
+  object-fit: cover ;   
+}
+
+
+#h1andImage
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#imageMarvel
+{
+  padding-top: 20px;
+  height: 45px;
+  width: 70px;
+  
+}
+h1 
+{
+  text-shadow: 1px 3px red;
+  font-family:'Roboto Slab' , serif ; 
+  text-align: center;
+  margin-right: 5px;
+}
+h1 a
+{
+  text-decoration: none;
+  color: white;
+}
+
+#navBar
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d59000;
+  padding:16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+
+.aList{
+  font-family:'Roboto Slab' , serif ; 
+  text-decoration: none;
+  color: white;
+  background-color: #d59000;
+  padding: 16px;
+  
+}
+
+.aList:hover{
+  background-color:#2D2A59 ;
+  border-radius:10px 10px 0px 0px;
+  text-shadow: 2px 1px #d56900;
+}
+#titleChrono
+{
+    color: white;
+    font-family:'Roboto Slab' , serif ;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+#imgAllHeros
+{
+  display: block;
+  margin: auto;
+  height: 400px;
+  width:90%;
+}
+
+h4
+{
+  padding-bottom:20px ;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+#presentationText
+{ 
+  display: block;
+  width: 90%;
+  margin-left:auto ;
+  margin-right:auto ;
+  padding-bottom:40px ;
+  font-family:'Roboto Slab' , serif ;
+  color: white;
+  margin-bottom: 0;
+  
+}
+
+#imgAllGem
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0;
+  position: sticky;
+  top: 0;
+
+}
+
+.imgGem
+{
+  width: 60px;
+  height:60px ;
+  
+}
+
+#selectNbChrono
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top:60px;
+  
+}
+.nbChrono
+{
+  color: gray;
+  font-size:10px;
+  width: 65px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+.rowBandeAnnonce
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:50px;
+    
+}
+
+.bandeannonce
+{
+    height:300px ;
+    width: 500px;
+    box-shadow:5px 5px 10px black ;
+    border:1px black solid ;
+    
+}
+
+.chronoNumber
+{
+    font-weight: bold;
+    color: white;
+    line-height:45px ;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 25px auto 10px auto;
+    background-color:red;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    font-size:x-large;
+}
+.titleFilmChrono
+{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#titleFilm10
+{
+    font-size: 26px;
+}
+
+
+footer 
+{
+  background-color: #2d2a59;
+}
+
+.footer-copyright 
+{
+ 
+  font-size: 8px;
+  background-color: #2d2a59;
+ 
+
+}
+
+}
+
+
