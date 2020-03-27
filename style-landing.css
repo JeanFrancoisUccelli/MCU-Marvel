@@ -102,6 +102,8 @@ h1 a{
   text-shadow: 1px 1px rgb(46, 46, 46)
 }
 
+/*articles*/
+
 .container-articles {
   display: flex; 
   justify-content: space-around;
@@ -126,12 +128,12 @@ h3 {
   display: flex;
   justify-content: flex-end;
   flex-wrap: nowrap;
-  padding: 1%;
+  padding: 5%;
   font-family: "source sans pro", sans-serif ;
 }
-a.button2 {
-  display:flex;
-  justify-self: flex-end;
+/* button infos */
+a.hvr-pulse {
+  display:inline-block;
   padding:0.5rem 3rem;
   border:0.1rem solid #FFFFFF;
   margin:auto;
@@ -143,14 +145,48 @@ a.button2 {
   color:#FFFFFF;
   text-align:center;
   transition: all 0.15s;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  } 
+ 
+  @-webkit-keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
   }
-a.button2:hover{
-  color:#DDDDDD;
-  border-color:#DDDDDD;
+  @keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
   }
-a.button2:active{
-  color:#BBBBBB;
-  border-color:#BBBBBB;
+  a.hvr-pulse:hover{
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+    }
+  a.hvr-pulse:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+    }
+  .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
   }
 footer {
   background-color: #2d2a59;
@@ -163,7 +199,7 @@ footer {
   background-color: #2d2a59;
 }
 @media only screen and (max-width: 450px){
-  a.button2 {
+  a.hvr-pulse {
     display:flex;
     justify-content: flex-end;
     flex-flow: column wrap;

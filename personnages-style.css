@@ -154,8 +154,14 @@ h2{
     margin-bottom: 7px;
     font-family: source sans pro;
 }
+.darkmode--activated h2 {
+  color: white;
+}
 
 p{
     color:rgba(185, 183, 183, 0.863);
     padding: 1px;
+}
+.darkmode--activated p{
+  color: white;
 }

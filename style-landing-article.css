@@ -96,7 +96,93 @@ h1 a{
   color: rgb(3, 188, 212);
   text-shadow: 1px 1px rgb(46, 46, 46)
 }
-
+.col-lg-5 {
+  background-color: transparent;
+}
+.col-lg-7{
+  background-color: transparent;
+}
+#article1{
+  background-color: transparent;
+}
+.darkmode--activated #article1{
+  background-color: rgb(201, 206, 204);
+  color: black;
+}
+#article2{
+  background-color: transparent;
+}
+.darkmode--activated #article2{
+  background-color: rgb(201, 206, 204);
+  color: black;
+}
+#article3{
+  background-color: transparent;
+}
+.darkmode--activated #article3{
+  background-color: rgb(201, 206, 204);
+  color: black;
+}
+#article4{
+  background-color: transparent;
+}
+.darkmode--activated #article4{
+  background-color: rgb(201, 206, 204);
+  color: black;
+}
+#article5{
+  background-color: transparent;
+}
+.darkmode--activated #article5{
+  background-color: rgb(201, 206, 204);
+  color: black;
+}
+#article6{
+  background-color: transparent;
+}
+.darkmode--activated #article6{
+  background-color: rgb(201, 206, 204);
+  color: black;
+}
+#article7{
+  background-color: transparent;
+}
+.darkmode--activated #article7{
+  background-color: rgb(201, 206, 204);
+  color: black;
+}
+h3{
+  background-color: transparent;
+}
+.darkmode--activated h3{
+  background-color: rgb(201, 206, 204);
+  color: black;
+}
+#text1{
+  font-weight: bolder;
+  background-color: transparent;
+}
+.darkmode--activated #text1{
+  background-color: rgb(51, 50, 49)
+}
+strong{
+  background-color: transparent;
+}
+.darkmode--activated strong{
+  background-color: rgb(201, 206, 204)
+}
+p{
+  background-color: transparent;
+}
+.darkmode--activated p{
+  background-color: rgb(201, 206, 204)
+}
+.darkmode--activated .col-lg-5{
+  background-color: rgb(201, 206, 204)
+}
+.darkmode--activated .col-lg-7{
+  background-color: rgb(201, 206, 204)
+}
 footer {
   background-color: #2d2a59;
 }
@@ -115,4 +201,50 @@ margin-bottom: 0;
 .my-5{
   margin-left: 40px; 
   margin-right: 40px;
+}
+
+.content {
+  width: auto; height: auto;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  z-index: 99999;
+}
+
+
+
+
+
+
+
+
+.center {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: rgb(70, 228, 70);
+  color: #fff;
+  border: transparent;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.modal-inner {
+  margin-top: 12%;
+  box-sizing: content-box;
+  padding-right: 50px;padding-left: 30px;
 }
