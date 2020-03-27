@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="films-style.css">
+    <link rel="stylesheet" href="darkmode.js">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -19,6 +20,11 @@
 
 <body>
     <div id="h1andImage">
+        <div class="audio"><audio controls autoplay>
+            <source src="https://medea-music.com/wp-content/uploads/2018/05/The-Avengers-Theme-Song.ogg" type="audio/ogg">
+            <source src="https://medea-music.com/wp-content/uploads/2018/05/The-Avengers-Theme-Song.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio></div>
         <h1><a href="landing-page.html">MCU PROJECT</a></h1>
         <img id="imageMarvel" src="https://www.firstcomicsnews.com/wp-content/uploads/2019/07/Marvel-Logo-600x272.png"
             alt="image Marvel">
@@ -419,6 +425,10 @@
         </footer>
         <!-- Footer -->
         <!-- JQuery -->
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script>
+        new Darkmode().showWidget();
+    </script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <!-- Bootstrap tooltips -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>

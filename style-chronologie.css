@@ -3,15 +3,25 @@
 *
 {
     background-color: #2D2A59 ;
-  
 }
-
+.darkmode--activated *{
+  background-color: rgb(51, 50, 49);
+}
 /* Carousel images */
 h1,h2,h3,p
 {
     font-family:'Roboto Slab' , serif ;
 }
-
+.audio{
+  width: 100px;
+  position: absolute;
+  left: 50px;
+  background-color:transparent;
+  isolation: isolate;
+}
+.darkmode--activated .audio{
+  background-color: rgb(201, 206, 204);
+}
 .imgcarousel
 {
   display: flex;
@@ -22,43 +32,55 @@ h1,h2,h3,p
 }
 
 
-#h1andImage
-{
+#h1andImage{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
-
-#imageMarvel
-{
+.darkmode--activated #h1andImage{
+  background-color:   rgb(201, 206, 204);
+}
+#imageMarvel{
   padding-top: 20px;
   height: 45px;
   width: 70px;
-  
+  margin-top: 0px;
+  background-color: transparent;
 }
-h1 
-{
+.darkmode--activated #imageMarvel{
+  background-color:  rgb(51, 50, 49);
+}
+h1 {
   text-shadow: 1px 3px red;
   font-family:'Roboto Slab' , serif ; 
   text-align: center;
   margin-right: 5px;
+  isolation: isolate;
 }
-h1 a
-{
-  text-decoration: none;
-  color: white;
+.darkmode--activated h1{
+  background-color:  rgb(51, 50, 49);
 }
 
-#navBar
-{
+h1 a{
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+}
+.darkmode--activated h1 a{
+  background-color:  rgb(51, 50, 49);
+}
+
+#navBar{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   background-color: #d59000;
-  padding:16px;
-  margin-top: 0;
-  margin-bottom: 0;
-  
+  padding:14px;
+  margin-bottom: 0px;
+}
+.darkmode--activated #navBar{
+  background-color: rgb(3, 188, 212);
 }
 
 
@@ -68,14 +90,26 @@ h1 a
   font-weight: bolder;
   color: white;
   background-color: #d59000;
-  padding: 16px;
+  padding: 17px;
 }
+.darkmode--activated .alist{
+  background-color: rgb(3, 188, 212);
+  color: rgb(46, 46, 46);
+  text-shadow: 1px 1px rgb(255, 153, 0)
+}
+
 
 .aList:hover{
   background-color:#2D2A59 ;
-  border-radius:10px 10px 0px 0px;
+  color: white;
   text-shadow: 2px 1px #d56900;
 }
+.darkmode--activated .alist:hover{
+  background-color: rgb(51, 50, 49);
+  color: rgb(3, 188, 212);
+  text-shadow: 1px 1px rgb(46, 46, 46)
+}
+
 #titleChrono
 {
     color: white;
@@ -165,6 +199,7 @@ h4
     width: 500px;
     box-shadow:5px 5px 10px black ;
     border:1px black solid ;
+    isolation: isolate;
 
 }
 
@@ -177,13 +212,18 @@ h4
     width: 50px;
     height: 50px;
     margin: 30px auto 10px auto;
-    background-color:red;
+    background-color:rgb(110, 6, 102);
     border-style: solid;
-    border-color: white;
+    border-color: #d59000;
     border-radius: 50%;
     font-size:x-large;
-   
 }
+.darkmode--activated .chronoNumber{
+  background-color:rgb(3, 188, 212);
+  color: black;
+  border-color: #d59000;
+}
+
 .titleFilmChrono
 {
     color: white;
@@ -200,11 +240,14 @@ footer
 {
   background-color: #2d2a59;
 }
+.darkmode--activated footer{
+  background-color: rgb(201, 206, 204);
+}
 
 .footer-copyright 
 {
  
-  font-size: 8px;
+  font-size: 20px;
   background-color: #2d2a59;
  
 
@@ -216,7 +259,9 @@ footer
   *
 {
     background-color: #2D2A59 ;
-  
+}
+.darkmode--activated *{
+  background-color: rgb(51, 50, 49);
 }
 
 /* Carousel images */
@@ -241,13 +286,18 @@ h1,h2,h3
   flex-direction: row;
   justify-content: center;
 }
+.darkmode--activated #h1andImage{
+  background-color:   rgb(201, 206, 204);
+}
 
 #imageMarvel
 {
   padding-top: 20px;
   height: 45px;
   width: 70px;
-  
+}
+.darkmode--activated #imageMarvel{
+  background-color:  rgb(51, 50, 49);
 }
 h1 
 {
@@ -255,11 +305,18 @@ h1
   font-family:'Roboto Slab' , serif ; 
   text-align: center;
   margin-right: 5px;
+  isolation: isolate;
+}
+.darkmode--activated h1{
+  background-color:  rgb(51, 50, 49);
 }
 h1 a
 {
   text-decoration: none;
   color: white;
+}
+.darkmode--activated h1 a{
+  background-color:  rgb(51, 50, 49);
 }
 
 #navBar
@@ -273,6 +330,9 @@ h1 a
   margin-bottom: 0;
   
 }
+.darkmode--activated #navBar{
+  background-color: rgb(3, 188, 212);
+}
 
 
 .aList{
@@ -283,12 +343,23 @@ h1 a
   padding: 16px;
   
 }
+.darkmode--activated .alist{
+  background-color: rgb(3, 188, 212);
+  color: rgb(255, 153, 0);
+  text-shadow: 1px 1px rgb(46, 46, 46);
+}
 
 .aList:hover{
   background-color:#2D2A59 ;
   border-radius:10px 10px 0px 0px;
   text-shadow: 2px 1px #d56900;
 }
+.darkmode--activated .alist:hover{
+  background-color: rgb(51, 50, 49);
+  color: rgb(3, 188, 212);
+  text-shadow: 1px 1px rgb(46, 46, 46)
+}
+
 #titleChrono
 {
     color: white;

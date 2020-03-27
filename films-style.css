@@ -5,18 +5,38 @@
     font-family: Roboto Slab;
     background-color: #2D2A59 ;
 }
+.darkmode--activated *{
+  background-color: rgb(51, 50, 49);
+}
+
+.audio{
+  width: 100px;
+  position: absolute;
+  left: 50px;
+  background-color:transparent;
+  isolation: isolate;
+}
+.darkmode--activated .audio{
+  background-color: rgb(201, 206, 204);
+}
 
 #h1andImage{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-
+.darkmode--activated #h1andImage{
+  background-color:   rgb(201, 206, 204);
+}
 #imageMarvel{
   padding-top: 20px;
   height: 45px;
   width: 70px;
   margin-top: 0px;
+  background-color: transparent;
+}
+.darkmode--activated #imageMarvel{
+  background-color:  rgb(51, 50, 49);
 }
 
 h1 {
@@ -24,11 +44,16 @@ h1 {
   font-family:'Roboto Slab' , serif ; 
   text-align: center;
   margin-right: 5px;
+  isolation: isolate;
 }
 
 h1 a{
   text-decoration: none;
   color: white;
+  background-color: transparent;
+}
+.darkmode--activated h1 a{
+  background-color:  rgb(51, 50, 49);
 }
 
 #navBar{
@@ -36,10 +61,12 @@ h1 a{
   display: flex;
   justify-content: space-around;
   background-color: #d59000;
-  padding:15px;
+  padding:14px;
   margin-bottom: 0px;
 }
-
+.darkmode--activated #navBar{
+  background-color: rgb(3, 188, 212);
+}
 .aList{
   font-family: Roboto Slab; 
   text-decoration: none;
@@ -48,12 +75,21 @@ h1 a{
   background-color: #d59000;
   padding: 16px;
 }
-
+.darkmode--activated .alist{
+  background-color: rgb(3, 188, 212);
+  color: rgb(46, 46, 46);
+  text-shadow: 1px 1px rgb(255, 153, 0)
+}
 .aList:hover{
   background-color:#2D2A59 ;
+  color: white;
   text-shadow: 2px 1px #d56900;
 }
-
+.darkmode--activated .alist:hover{
+  background-color: rgb(51, 50, 49);
+  color: rgb(3, 188, 212);
+  text-shadow: 1px 1px rgb(46, 46, 46)
+}
 /* Carousel images */
 
 .imgcarousel {
@@ -69,7 +105,9 @@ h1 a{
 footer {
   background-color: #2d2a59;
 }
-
+.darkmode--activated footer{
+  background-color: rgb(201, 206, 204);
+}
 .footer-copyright {
  
   font-size: 20px;
@@ -88,7 +126,6 @@ html, body {
 
 img {
     margin-top: 25px;
-    padding-top: 15px;
     height: 250px;
     margin-right: 20px;
  }

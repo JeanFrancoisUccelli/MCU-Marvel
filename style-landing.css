@@ -2,63 +2,104 @@
 {
   background-color: #2D2A59 ;
 }
+.darkmode--activated *{
+  background-color: rgb(51, 50, 49);
+}
 /* Carousel images */
 .imgcarousel{
   display: flex;
   align-self: center;
   height: 400px;
   width: 100%;
-  object-fit: cover ;   
+  object-fit: cover ; 
+  isolation: isolate;  
 }
-
+.audio{
+  width: 100px;
+  position: absolute;
+  left: 50px;
+  background-color:transparent;
+  isolation: isolate;
+}
+.darkmode--activated .audio{
+  background-color: rgb(201, 206, 204);
+}
 #h1andImage{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 1px;
+  
 }
-
+.darkmode--activated #h1andImage{
+  background-color:   rgb(201, 206, 204);
+}
 #imageMarvel{
   padding-top: 20px;
   height: 45px;
   width: 70px;
-  
+  margin-top: 0px;
+  background-color: transparent;
 }
+.darkmode--activated #imageMarvel{
+  background-color:  rgb(51, 50, 49);
+}
+
 h1 {
   text-shadow: 1px 3px red;
   font-family:'Roboto Slab' , serif ; 
   text-align: center;
   margin-right: 5px;
+  isolation: isolate;
 }
+.darkmode--activated h1{
+  background-color:  rgb(51, 50, 49);
+}
+
 h1 a{
   text-decoration: none;
   color: white;
+  background-color: transparent;
 }
+.darkmode--activated h1 a{
+  background-color:  rgb(51, 50, 49);
+}
+
 #navBar{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   background-color: #d59000;
-  padding:15px;
-  margin-bottom: 0;
-  
+  padding:14px;
+  margin-bottom: 0px;
 }
-
+.darkmode--activated #navBar{
+  background-color: rgb(3, 188, 212);
+}
 
 .aList{
-  
   font-family: Roboto Slab; 
   text-decoration: none;
-  color: white;
   font-weight: bolder;
+  color: white;
   background-color: #d59000;
-  padding: 16px;
-  
+  padding: 17px;
 }
+.darkmode--activated .alist{
+  background-color: rgb(3, 188, 212);
+  color: rgb(46, 46, 46);
+  text-shadow: 1px 1px rgb(255, 153, 0)
+}
+
 
 .aList:hover{
   background-color:#2D2A59 ;
+  color: white;
   text-shadow: 2px 1px #d56900;
+}
+.darkmode--activated .alist:hover{
+  background-color: rgb(51, 50, 49);
+  color: rgb(3, 188, 212);
+  text-shadow: 1px 1px rgb(46, 46, 46)
 }
 
 .container-articles {
@@ -111,6 +152,16 @@ a.button2:active{
   color:#BBBBBB;
   border-color:#BBBBBB;
   }
+footer {
+  background-color: #2d2a59;
+}
+.darkmode--activated footer{
+  background-color: rgb(201, 206, 204);
+}
+.footer-copyright {
+  font-size: 20px;
+  background-color: #2d2a59;
+}
 @media only screen and (max-width: 450px){
   a.button2 {
     display:flex;
