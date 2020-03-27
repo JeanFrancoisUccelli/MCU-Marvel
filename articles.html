@@ -79,9 +79,9 @@
 <section class="my-5 white-text">
 
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold text-center my-5" style="padding-top: 20px;"">Recent posts</h2>
+  <h2 class="h1-responsive font-weight-bold text-center my-5" style="padding-top: 20px;">Recent posts</h2>
   <!-- Section description -->
-  <p class="text-center w-responsive mx-auto mb-5">I guys,keep us up to date with the news about our favorite heroes and everything that revolves around them</p>
+  <p class="text-center w-responsive mx-auto mb-5">Hi guys, keep us up to date with the news about our favorite heroes and everything that revolves around them.</p>
 
   <!-- Grid row -->
   <div class="row">
@@ -102,20 +102,31 @@
     <div class="col-lg-7">
 
       <!-- Category -->
-      <a  class="green-text">
-        <h6 class="font-weight-bold mb-3"></i>New</h6>
-      </a>
+      
       <!-- Post title -->
+      <div id="article1">
       <h3 class="font-weight-bold mb-3"><strong>Falcon & Winter Soldier Confirmed To Be Set Immediately After Avengers: Endgame</strong></h3>
       <!-- Excerpt -->
-      <p>Set photos from Marvel's Falcon & Winter Soldier series confirm the show is set immediately after the events of Avengers: Endgame. The Marvel Cinematic Universe is one of the greatest success stories in the history of Hollywood. It's an innovative shared universe consisting of (currently) 23 interlinked movies and combined it's grossed over $22 billion in the global box office. Avengers: Endgame became the highest-grossing movie of all time, beating Avatar's record.
-
-        The MCU is about to expand onto the small screen, with a range of Disney+ TV shows closely connected to the movies. The first of these is The Falcon & The Winter Soldier, starring Sebastian Stan and Anthony Mackie as the titular hero. It deals with the question of who will wield the shield of Captain America, now that Steve Rogers is no longer serving as the Star-Spangled Avenger. Set photos have finally confirmed how closely it will be connected to Avengers: Endgame.</p>
-      <!-- Post data -->
-      <p>by <a><strong>Thomas Bacon</strong></a>, Mar 05, 2020</p>
       <!-- Read more button -->
-      <a class="btn btn-success btn-md" href="https://screenrant.com/falcon-winter-soldier-confirmed-set-after-avengers-endgame/">Read more</a>
+      <p><button id="open-modal1" class="btn btn-success btn-md">Read more</button></p>
+      <div id="modal1" class="modal">
+        <div class="modal-inner content center">
+        <p>Set photos from Marvel's Falcon & Winter Soldier series confirm the show is set immediately after the events of Avengers: Endgame. 
+      The Marvel Cinematic Universe is one of the greatest success stories in the history of Hollywood. 
+      It's an innovative shared universe consisting of (currently) 23 interlinked movies and combined it's grossed over $22 billion in the global box office. 
+      Avengers: Endgame became the highest-grossing movie of all time, beating Avatar's record.
 
+      The MCU is about to expand onto the small screen, with a range of Disney+ TV shows closely connected to the movies. 
+      The first of these is The Falcon & The Winter Soldier, starring Sebastian Stan and Anthony Mackie as the titular hero. 
+      It deals with the question of who will wield the shield of Captain America, now that Steve Rogers is no longer serving as the Star-Spangled Avenger. 
+      Set photos have finally confirmed how closely it will be connected to Avengers: Endgame.</p>
+        <button id="close-modal1">Close</button>
+        </div>
+      </div>
+        <!-- Post data -->
+      <p>by <a><strong>Thomas Bacon</strong></a>, Mar 05, 2020</p>
+
+      </div>
     </div>
     <!-- Grid column -->
 
@@ -131,24 +142,26 @@
     <div class="col-lg-7">
 
       <!-- Category -->
-      <a href="#!" class="pink-text">
-        <h6 class="font-weight-bold mb-3"><i class="fas fa-image pr-2"></i>Lifestyle</h6>
-      </a>
+
       <!-- Post title -->
+      <div id="article2">
       <h3 class="font-weight-bold mb-3"><strong>New Marvel films from 2020 to 2023</strong></h3>
       <!-- Excerpt -->
-      <p>Will you take some Marvel back to the movies? A few months ago, at the Comic-Con of San Diego 2019, Kevin Feige unveiled the line-up of films to come for phase 4 of the Marvel Cinematic Universe. And once is not custom, the release schedule has been turned upside down since ... Black Widow, Doctor Strange, The Eternals ... We discover together the films to come between 2020 and 2023!
+      <p><button id="open-modal2" class="btn btn-success btn-md">Read more</button></p>
+        <div id="modal2" class="modal">
+          <div class="modal-inner content center">
+            <p>Will you take some Marvel back to the movies? A few months ago, at the Comic-Con of San Diego 2019, Kevin Feige unveiled the line-up of films to come for phase 4 of the Marvel Cinematic Universe. And once is not custom, the release schedule has been turned upside down since ... Black Widow, Doctor Strange, The Eternals ... We discover together the films to come between 2020 and 2023!
 
         For more than ten years now, Marvel Studios has been dreaming of comic book fans with a whole series of films around the House of Ideas superheroes. From Iron Man, released in 2008, to Spider-Man: Far From Home released on July 3, 2019 via the various Avengers, Marvel feature films have rocked the film releases of millions of fans who came to discover - or rediscover - their favorite heroes on the big screen.
         
-        And after the takeover of 20th Century Fox by Disney, which held the rights to the X-Men and the Fantastic 4, what does Marvel Studios have in store for us? We therefore take stock of phase 4 of the MCU and the release dates of the films announced by Kevin Feige at the Comic-Con in San Diego 2019.
-
-</p>
+        And after the takeover of 20th Century Fox by Disney, which held the rights to the X-Men and the Fantastic 4, what does Marvel Studios have in store for us? We therefore take stock of phase 4 of the MCU and the release dates of the films announced by Kevin Feige at the Comic-Con in San Diego 2019.</p>
+          <button id="close-modal2">Close</button>
+        </div>
+      </div>
       <!-- Post data -->
-      <p>by <a><strong>Laurent P</strong></a>, 12/03/2019</p>
+          <p>by <a><strong>Laurent P</strong></a>, 12/03/2019</p>
       <!-- Read more button -->
-      <a class="btn btn-pink btn-md mb-lg-0 mb-4" href="https://www.sortiraparis.com/loisirs/cinema/articles/188689-les-films-marvel-prevus-entre-2020-et-2023">Read more</a>
-
+      </div>
     </div>
     <!-- Grid column -->
 
@@ -156,8 +169,8 @@
     <div class="col-lg-5">
 
       <!-- Featured image -->
-      <div class="view overlay rounded ">
-        <img class="img-fluid" src="https://www.sortiraparis.com/images/1003/66131/475292-les-films-marvel-prevus-en-2020-et-2021.jpg" alt="Sample image">
+      <div class="view overlay rounded z-depth-5 mb-lg-5 mb-4" style="padding-right: 0px; margin-right: 140px;">
+        <img class="img-fluid" src="https://www.sortiraparis.com/images/1001/66131/475292-les-films-marvel-prevus-en-2020-et-2021.jpg" alt="Sample image">
 
       </div>
 
@@ -176,9 +189,8 @@
     <div class="col-lg-5">
 
       <!-- Featured image -->
-      <div class="view overlay rounded z-depth-2 mb-lg-5 mb-4">
-        <iframe width="850" height="415" src="https://www.youtube.com/embed/mWG2f9oTvi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+      <div class="view overlay rounded z-depth-5 mb-lg-5 mb-4">
+        <iframe width="750" height="415" src="https://www.youtube.com/embed/mWG2f9oTvi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
     </div>
@@ -188,25 +200,284 @@
     <div class="col-lg-7">
 
       <!-- Category -->
-      <a href="#!" class="indigo-text">
-        <h6 class="font-weight-bold mb-3"><i class="fas fa-suitcase pr-2"></i>Travels</h6>
-      </a>
+
       <!-- Post title -->
+      <div id="article3">
       <h3 class="font-weight-bold mb-3"><strong>You too become Iron Man… for 10,000 dollars!</strong></h3>
       <!-- Excerpt -->
+      <!-- Read more button -->
+      <p><button id="open-modal3" class="btn btn-success btn-md">Read more</button></p>
+        <div id="modal3" class="modal">
+        <div class="modal-inner content center">
       <p>This video features English cosplayer Paul MacDowell during MCM ComicCon in London last May. He didn’t fully design his armor. It comes from a Hong Kong company called KillerBody, which we talked about a few years ago. They designed two models. The one seen in the video is the most advanced since everything is controllable, not just the helmet. This armor is therefore capable of electrically controlling the helmet, the shoulders, the wings, the right forearm and the thighs. All these elements are lit by LED. They even pushed the detail to sound the Arc reactor and the right palm, which does not have a real laser unlike that made by an amateur. To control the whole, a remote control is provided, but it is mainly the magnetic sensors in the fingers that make everything believable.
 
         It is therefore possible for everyone to become an Iron Man. Of course, this armor comes at a cost. The KillerBody website notes the 2 models out of stock, but the company has confirmed that they are available again. It will therefore cost you a whopping 4,500 or 10,000 dollars depending on the model. It takes indeed count the 8,999 dollars of the armor to which are added 480 dollars of shipping costs and of course the customs fees. According to the company, it takes 3 to 5 days of delivery to France with DHL, so it's too late for Halloween, especially since this armor is one size and it will therefore be necessary to make alterations in order to best adapt it to your body size.</p>
+        <button id="close-modal3">Close</button>
+        </div>
+        </div>
       <!-- Post data -->
       <p>by <a><strong>Guillaume Pigeard,</strong></a>, 10/29/2019</p>
-      <!-- Read more button -->
-      <a class="btn btn-indigo btn-md" href="https://www.tomsguide.fr/iron-man-un-costume-entierement-operationnel-fait-le-buzz">Read more</a>
-
+      </div>
     </div>
     <!-- Grid column -->
 
   </div>
+
+  
+  <hr class="my-5">
+  
   <!-- Grid row -->
+  <div class="row">
+  
+    <!-- Grid column -->
+    <div class="col-lg-7">
+  
+      <!-- Category -->
+  
+      <!-- Post title -->
+      <div id="article4">
+      <h3 class="font-weight-bold mb-3"><strong>Marvel aurait planifié de rendre le capitaine Marvel mauvais dans Avengers 5</strong></h3>
+      <!-- Excerpt -->
+      <!-- Read more button -->
+      <p><button id="open-modal4" class="btn btn-success btn-md">Read more</button></p>
+        <div id="modal4" class="modal">
+        <div class="modal-inner content center">
+      <p>
+      Marvel has an excellent list of films from Phase 4 of the MCU. Avengers 5 was surprisingly absent from the
+      programming, leaving many people wondering what would happen when the most powerful heroes of the
+      Earth would meet again. Now, we can have some sort of idea of ​​what's going to happen in the movie, because
+      Marvel plans to turn Captain Marvel into evil in the next Avengers pic.
+      
+      With Spider-Man, the studio had big plans for Carol Danvers, hoping she would be the centerpiece of the MCU
+      to go forward. There was also talk of Captain Marvel leading an A-Force team and a
+      Ultimates team, while we also know that at some point it will pass the torch to Monica Rambeau, who,
+      according to the appearance of some recent photos, will return to the MCU after his debut in Captain Marvel with a
+      appearance in WandaVision. But with this new report, we now have a better idea of ​​where they
+      head with the character.
+      
+      According to our sources - the same who said that Taskmaster would be the main villain of Black Widow and a Mrs. Marvel
+      One
+      TV show was under development for Disney Plus, which have since been confirmed - the studio draws inspiration
+      a bit of a recent arc in the comics where Captain Marvel is getting bad and apparently the plan is to do it
+      to possess by an evil entity of space, similar to that of the Phoenix Force with which Jean Gray of the X-Men had to
+      coping, which makes Carol extremely powerful, even more than she is now. This whole test will be
+      apparently teased at the end of Avengers 5 aka New Avengers, then the arc will be fully played out in Captain Marvel
+      3, before she likely returns to her normal self.
+            
+      However, she probably won't be the only evil entity in the photo, as we've also heard that the
+      studio envisioned Kang the conqueror and the masters of evil for the next mega film as a team. Again, like us
+      as we said, Carol going naughty would not happen until late as a tease for her third outing in
+      solo, so she wouldn't be exactly one of the main antagonists or anything.
+      
+      And although plans can always change between now and when Avengers 5 actually takes off, this is where we
+      tells us that the studio wants to go with Captain Marvel and since these are the same sources that have
+      also said that Han would return to the furious Rapide franchise, we have no reason to doubt.
+      </p>
+      <button id="close-modal4">Close</button>
+      </div>
+      </div>
+      <!-- Post data -->
+      <p>by <a><strong>Sasuke</strong></a>, 03/03/2020</p>
+      
+      </div>
+    </div>
+    <!-- Grid column -->
+  
+    <!-- Grid column -->
+    <div class="col-lg-5">
+  
+      <!-- Featured image -->
+      <div class="view overlay rounded z-depth-5 mb-lg-5 mb-4" style="padding-right: 0px; margin-right: 140px;">
+        <img class="img-fluid" src="https://www.japanfm.fr/wp-content/uploads/2020/03/Marvel-aurait-planifi%C3%A9-de-rendre-le-capitaine-Marvel-mauvais-dans.jpg" alt="Sample image">
+      </div>
+  
+    </div>
+    <!-- Grid column -->
+  
+  </div>
+  <!-- Grid row -->
+  
+  <hr class="my-5">
+  
+  <!-- Grid row -->
+  <div class="row">
+  
+    <!-- Grid column -->
+    <div class="col-lg-5">
+  
+      <!-- Featured image -->
+      <div class="view overlay rounded z-depth-5 mb-lg-5 mb-4">
+        <img class="img-fluid"
+          src="https://www.nextplz.fr/wp-content/uploads/2020/03/spider-woman-comic-character-girl-wallpaper2x-scaled-e1584636275744.jpg"
+          alt="Sample image">
+      </div>
+  
+    </div>
+    <!-- Grid column -->
+  
+    <!-- Grid column -->
+    <div class="col-lg-7">
+  
+      <!-- Category -->
+  
+      <!-- Post title -->
+      <div id="article5">
+      <h3 class="font-weight-bold mb-3"><strong>Marvel Studios: A Spider-Woman movie in preparation? Kevin Feige responds!</strong></h3>
+      <!-- Excerpt -->
+      <!-- Read more button -->
+      <p><button id="open-modal5" class="btn btn-success btn-md">Read more</button></p>
+        <div id="modal5" class="modal">
+          <div class="modal-inner content center">
+      <p>Could it be that Kevin Feige signs a new agreement with Sony for another character? Based on recent
+      About Charles Murphy, it is quite possible that we can see another Sony character integrate the MCU.
+      
+      Spider-Man's place in the cinema is quite difficult to define ... Indeed, as you probably know, Sony has
+      currently the majority of the rights in the universe of Peter Parker.
+      
+      A universe that they gave up in part for 2 homonymous films, as well as two Avengers films. But when we thought
+      that the character was an integral part of the MCU, Sony decided otherwise, by breaking its contract with Marvel
+      Studios. A decision that shocked many, including Tom Holland, the character's current performer.
+      Following fan protests, the Avengers cast, as well as a new negotiation with Marvel Studios, Sony has
+      left Spider-Man’s parent company to use the character for a third and final film. A film whose
+      The shooting should start in late May.</p>
+      <button id="close-modal5">Close</button>
+      </div>
+      </div>
+      <!-- Post data -->
+      <p>by <a><strong>Saousan Daji</strong></a>, 19/03/2020</p>
+      </div>
+  
+    </div>
+    <!-- Grid column -->
+  
+  </div>
+
+
+<hr class="my-5">
+
+<!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-lg-7">
+
+    <!-- Category -->
+
+    <!-- Post title -->
+    <div id="article6">
+    <h3 class="font-weight-bold mb-3"><strong>Guardians Of The Galaxy Get New Outfits In "Marvel Ultimate Alliance 3"</strong></h3>
+    <!-- Excerpt -->
+    <!-- Read more button -->
+    <p><button id="open-modal6" class="btn btn-success btn-md">Read more</button></p>
+      <div id="modal6" class="modal">
+        <div class="modal-inner content center">
+    <p>Marvel Ultimate Alliance 3: The Black Order has got a new update coming this week for the Guardians Of The Galaxy with
+    new costumes. Over the weekend, Nintendo and Team Ninja showed off this image of a set of new costumes coming to the
+    game. All of them special alternative costumes for every well-known member of the Guardians, as well as a new one for
+    Thanos. First off, you have costumes for Star-Lord, Rocket Raccoon, Groot, and Gamora from the Annihilation Conquest
+    storyline. All of them looking especially threatening. Since Drax is pretty much missing his shirt in that storyline as
+    well, they went with the Thanos Imperative version where he definitely hones in on the Destroyer aspect of his
+    namesake.Finally, Thanos himself has his Annihilation garb, looking like a dictator on the rise only this time in
+    imperial white. All five of these costumes will be added to the game on March 25th as part of the "Shadow of Doom" DLC.
+    There's nothing else special about them beyond the look, you won't get any bonuses from them in Marvel Ultimate Alliance
+    3. But hey, at least it's a change of pace for some of the most popular characters in the MCU right now.
+    </p>
+    <button id="close-modal6">Close</button>
+    </div>
+    </div>
+    <!-- Post data -->
+    <p>by <a><strong>Gavin Sheehan</strong></a>, 22/03/2020</p>
+    </div>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-5">
+
+    <!-- Featured image -->
+    <div class="view overlay rounded z-depth-5 mb-lg-5 mb-4" style="padding-right: 0px; margin-right: 140px;">
+      <img class="img-fluid"
+        src="http://www.comicsblog.fr/images/news/crop2_MAU3-costumes-51.jpg"
+        alt="Sample image">
+
+    </div>
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<hr class="my-5">
+
+<!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-lg-5">
+
+    <!-- Featured image -->
+    <div class="view overlay rounded z-depth-5 mb-lg-5 mb-4">
+      <img class="img-fluid" src="https://www.japanfm.fr/wp-content/uploads/2020/02/Le-faucon-et-le-soldat-de-lhiver-pourraient-%C3%AAtre-r%C3%A9%C3%A9crits.jpg" alt="Sample image">
+    </div>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-7">
+
+    <!-- Category -->
+
+    <!-- Post title -->
+    <div id="article7">
+    <h3 class="font-weight-bold mb-3"><strong>Hawk and winter soldier may be rewritten due to coronavirus</strong></h3>
+    <!-- Excerpt -->
+    <!-- Read more button -->
+      <p><button id="open-modal7" class="btn btn-success btn-md">Read more</button></p>
+      <div id="modal7" class="modal">
+        <div class="modal-inner content center">
+    <p>Coronavirus continues to be a problem and with the number of cases increasing, everyone is taking
+    precautions, especially Marvel Studios. According to recent reports, the Disney + TV series The Hawk and the Soldier
+    winter may have to be rewritten due to the pandemic.
+    
+    It's not uncommon for Marvel projects to get covers or rewrites, maybe even multiple times per
+    production. This can happen for a number of reasons, from personnel changes to conflicts
+    schedule, including the spread of a deadly virus that could have drastic effects on the economy
+    world. This seems to be the case with The Falcon and the Winter Soldier.
+    
+    MCU Exchange reports that show starring Anthony Mackie and Sebastian Stan has extended its schedule
+    filming due to rewriting. Some plot leaks and speculations have revolved around the series putting
+    featured a kind of device triggering a virus across the population, which, when it was released in August the
+    Coronavirus has become a global pandemic, would be very inappropriate for families to present platform.
+    
+    The House of the Mouse apparently tries to anticipate the situation and avoid any embarrassing coincidence that their
+    the long-awaited original Disney + could have with something that has already made more than 2,800 lives worldwide. It
+    is
+    certainly a smart decision and if this report turns out to be correct, it doesn't seem to affect the release date.
+    
+    Of course, this is just one of the many new revelations that have come from production in recent years
+    weeks. Still images revealed new addition to MCU, new Captain America and even new alias
+    Bucky's potential. We also learned that there would be another black Captain America in the series and that the
+    series would present the first MCU mutant. Whether or not this Coronavirus rewrite report turns out to be true, we
+    will have to wait to find out, but I hope this terrible ordeal will be over by then The hawk and the
+    winter soldier aired exclusively on Disney + in August 2020.</p>
+    <button id="close-modal7">Close</button>
+    </div>
+    </div>
+    <!-- Post data -->
+    <p>by <a><strong>SasukE</strong></a>, 29/02/2019</p>
+    <!-- Read more button -->
+    </div>
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+
+
+
 
 </section>
 <!-- Section: Blog v.1 -->
@@ -281,6 +552,8 @@
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
 
 <!-- Articles -->
+<!-- JavaScript -->
+<script type="text/javascript" src="js-landing-articles.js"></script>
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
