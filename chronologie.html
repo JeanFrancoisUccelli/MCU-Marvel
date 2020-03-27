@@ -1,4 +1,5 @@
 <!DOCTYPE html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,7 +56,7 @@
         </nav>    
             <h2 id="titleChrono">What order should you watch every Marvel movie ?</h2> 
             <div>
-               <img id="imgAllHeros" src="allHeros/allHeros.png" alt="all heros Marvel">
+               <img id="imgAllHeros" src="allHeros/allHeros.jpg" alt="all heros Marvel">
                <h4>- Sit back and grab some popcorn !</h4>
                <p id="presentationText">Marvel Studios has released Avengers: Endgame and Spiderman: Far From Home, so we're officially on to the next phase of the MCU.
                 If you're new to the Marvel Cinematic Universe (MCU), which includes the films produced by Marvel Studios,
@@ -92,153 +93,249 @@
                   <p class="nbChrono">21-24</P>
                </div>
             <div class="rowBandeAnnonce" id="film01">
-            <div >
-               <p class="chronoNumber">01</p>
-                  <h3 class="titleFilmChrono">Captain America : first avenger (2011)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/IsiV9IJieMk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-               <p class="chronoNumber">02</p>
-                  <h3 class="titleFilmChrono">Captain Marvel (2019)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/rndLWLmwgeA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-           </div>
-        </div>
-        <div class="rowBandeAnnonce">
-            <div>
+               <div class="blocAffiche" >
+                  <p class="chronoNumber">01</p>
+                     <h3 class="titleFilmChrono">Captain America : first avenger (2011)</h3>
+                        <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/02/captain-america-firs-avenger.jpg" alt="image captain"></img>
+                           <button id="open-modal" class="buttonTrailer" >Trailer</button>
+                             </div>   
+                                 <div class="pageTrailer" id="modalTrailer" id="close-modal">
+                                    <iframe class="trailer" src="https://www.youtube.com/embed/IsiV9IJieMk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>           
+                             <div class="blocAffiche">
+                         <p class="chronoNumber">02</p>
+                     <h3 class="titleFilmChrono">Captain Marvel (2019)</h3>
+                  <img class="bandeAnnonce" src="https://www.grignoux.be/upload/grignoux/films/561/captain_marvel_affiche.jpg" alt="image captain"></img>
+               <button id="open-modal2" class="buttonTrailer" >Trailer</button>
+            </div> 
+         <div class="pageTrailer" id="modalTrailer2" id="close-modal2">  
+      <iframe class="trailer" src="https://www.youtube.com/embed/rndLWLmwgeA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+      </div>  
+      </div>
+         <div class="rowBandeAnnonce">
+            <div class="blocAffiche" >
                <p class="chronoNumber">03</p>
                   <h3 class="titleFilmChrono">Iron man (2008)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/rDCTb9Gp2qk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-               <p class="chronoNumber">04</p>
-                  <h3 class="titleFilmChrono">Iron man 2 (2010)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/VdZj2QYTAic" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-           </div>
-        </div>
-        <div class="rowBandeAnnonce"  id="film05">
-            <div>
+                     <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/02/iron-man-film.jpg" alt="image fil iron man"></img>
+                        <button id="open-modal3" class="buttonTrailer" >Trailer</button>
+                        </div>   
+                           <div class="pageTrailer" id="modalTrailer3" id="close-modal">
+                              <iframe class="trailer" src="https://www.youtube.com/embed/rDCTb9Gp2qk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>           
+                           <div class="blocAffiche" >
+                        <p class="chronoNumber">04</p>
+                     <h3 class="titleFilmChrono">Iron man 2 (2010)</h3>
+                  <img class="bandeAnnonce" src="https://aws.vdkimg.com/film/2/8/4/0/284043_backdrop_scale_1280xauto.jpg" alt="image fil iron man"></img>
+               <button id="open-modal4" class="buttonTrailer" >Trailer</button>
+           </div>   
+         <div class="pageTrailer" id="modalTrailer4" id="close-modal">
+      <iframe class="trailer" src="https://www.youtube.com/embed/VdZj2QYTAic" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>           
+      </div>
+         <div class="rowBandeAnnonce"  id="film05">
+            <div class="blocAffiche" >
                <p class="chronoNumber">05</p>
                   <h3 class="titleFilmChrono">Thor (2011)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/pzT3yeV9lT4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-               <p class="chronoNumber">06</p>
-                  <h3 class="titleFilmChrono">L'incroyable Hulk (2008)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/20TeWfV8rL0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-           </div>
-        </div>
-        <div class="rowBandeAnnonce">
-            <div>
-               <p class="chronoNumber">07</p>
-                  <h3 class="titleFilmChrono">Avengers (2012)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/GZdcVHxT0sA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-               <p class="chronoNumber">08</p>
-                  <h3 class="titleFilmChrono">Iron man 3 (2013)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/5GNkB5G-aCc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-           </div>
+                     <img class="bandeAnnonce" src="https://image.tmdb.org/t/p/w1280/LvmmDZxkTDqp0DX7mUo621ahdX.jpg" alt="image film Thor"></img>
+                        <button id="open-modal5" class="buttonTrailer" >Trailer</button>
+                           </div>   
+                              <div class="pageTrailer" id="modalTrailer5" id="close-modal">
+                                 <iframe class="trailer" src="https://www.youtube.com/embed/pzT3yeV9lT4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>    
+                              <div class="blocAffiche" >
+                           <p class="chronoNumber">06</p>
+                        <h3 class="titleFilmChrono">L'incroyable Hulk (2008)</h3>
+                     <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/02/incroyable-hulk-film-min.jpg" alt="image film l incroyable hulk"></img>
+                  <button id="open-modal6" class="buttonTrailer" >Trailer</button>
+               </div>   
+            <div class="pageTrailer" id="modalTrailer6" id="close-modal">
+         <iframe class="trailer" src="https://www.youtube.com/embed/20TeWfV8rL0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>           
+         </div>
+            <div class="rowBandeAnnonce">
+               <div class="blocAffiche" >
+                  <p class="chronoNumber">07</p>
+                     <h3 class="titleFilmChrono">Avengers (2012)</h3>
+                        <img class="bandeAnnonce" src="https://aws.vdkimg.com/film/3/2/1/2/321277_backdrop_scale_1280xauto.jpg" alt="image film l incroyable hulk"></img>
+                           <button id="open-modal7" class="buttonTrailer" >Trailer</button>
+                              </div>   
+                                 <div class="pageTrailer" id="modalTrailer7" id="close-modal">
+                                    <iframe class="trailer" src="https://www.youtube.com/embed/GZdcVHxT0sA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>           
+                                 <div class="blocAffiche" >
+                              <p class="chronoNumber">08</p>
+                           <h3 class="titleFilmChrono">Iron man 3 (2013)</h3>
+                        <img class="bandeAnnonce" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/174E1FCBF5E6DB926D9019689203C51A0F825ACF08768FB5F9612E5E70A50674/scale?aspectRatio=1.78&format=jpeg" alt="image film Iron man 3"></img>
+                     <button id="open-modal8" class="buttonTrailer" >Trailer</button>
+                  </div>   
+               <div class="pageTrailer" id="modalTrailer8" id="close-modal">
+            <iframe class="trailer" src="https://www.youtube.com/embed/5GNkB5G-aCc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>           
         </div>
         <div class="rowBandeAnnonce" id="film09">
-            <div >
+            <div class="blocAffiche" >
                <p class="chronoNumber">09</p>
                   <h3 class="titleFilmChrono">Thor : Le monde des ténèbres (2013)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/dURsTuJYAJY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-               <p class="chronoNumber">10</p>
-                  <h3 class="titleFilmChrono" id="titleFilm10" >Captain america,le soldat de l'hiver (2014)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/_sV0QuxOHoY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <img class="bandeAnnonce" src="https://static.mmzstatic.com/wp-content/uploads/2013/10/thor-le-monde-des-tenebres.jpg" alt="image film Thor le monde des ténèbres"></img>
+                        <button id="open-modal9" class="buttonTrailer" >Trailer</button>
+                           </div>   
+                              <div class="pageTrailer" id="modalTrailer9" id="close-modal">
+                                 <iframe class="trailer" src="https://www.youtube.com/embed/dURsTuJYAJY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>           
+                                    <div class="blocAffiche" >
+                                 <p class="chronoNumber">10</p>
+                               <h3 class="titleFilmChrono">Captain america,le soldat de l'hiver (2014)</h3>
+                           <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/03/captain-america-2-1080x672.jpg" alt="image film Captain america,le soldat de l hiver"></img>
+                        <button id="open-modal10" class="buttonTrailer" >Trailer</button>
+                     </div>   
+                  <div class="pageTrailer" id="modalTrailer10" id="close-modal">
+               <iframe class="trailer" src="https://www.youtube.com/embed/_sV0QuxOHoY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>           
            </div>
-        </div>
         <div class="rowBandeAnnonce">
-          <div>
+         <div class="blocAffiche" >
             <p class="chronoNumber">11</p>
                <h3 class="titleFilmChrono">Les gardiens de la galaxie (2013)</h3>
-            <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/nnSJfAAu65w" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
-         <div>
-            <p class="chronoNumber">12</p>
-               <h3 class="titleFilmChrono">Avengers : l' ère d'Ultron (2015)</h3>
-            <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/dN3ea4u03Xo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-          </div>
-        </div>  
+                  <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/03/les-gardiens-de-la-galaxie-1080x675.jpg" alt="image film Les gardiens de la galaxie"></img>
+                     <button id="open-modal11" class="buttonTrailer" >Trailer</button>
+                        </div>   
+                           <div class="pageTrailer" id="modalTrailer11" id="close-modal">
+                              <iframe class="trailer" src="https://www.youtube.com/embed/nnSJfAAu65w" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>           
+                                 <div class="blocAffiche" >
+                              <p class="chronoNumber">12</p>
+                           <h3 class="titleFilmChrono">Avengers : l' ère d'Ultron (2015)</h3>
+                        <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/03/ob_6392cc_avengers-l-ere-d-ultron-1080x674.jpg" alt="image film avengers l ere d ultron"></img>
+                     <button id="open-modal12" class="buttonTrailer" >Trailer</button>
+                  </div>   
+               <div class="pageTrailer" id="modalTrailer12" id="close-modal">
+            <iframe class="trailer" src="https://www.youtube.com/embed/dN3ea4u03Xo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>           
+         </div>  
         <div class="rowBandeAnnonce" id="film13">
-            <div >
-               <p class="chronoNumber">13</p>
-                  <h3 class="titleFilmChrono">Ant-man (2015)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/a1WbrujXUpA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-               <p class="chronoNumber">14</p>
-                  <h3 class="titleFilmChrono" >Captain america : civil war (2016)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/BURXoDEa4Zg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-        </div>
+         <div class="blocAffiche" >
+            <p class="chronoNumber">13</p>
+               <h3 class="titleFilmChrono">Ant-man (2015)</h3>
+                  <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/04/ant-man-1080x675.jpg" alt="image film avengers l ere d ultron"></img>
+                     <button id="open-modal13" class="buttonTrailer" >Trailer</button>
+                        </div>   
+                           <div class="pageTrailer" id="modalTrailer13" id="close-modal">
+                              <iframe class="trailer" src="https://www.youtube.com/embed/a1WbrujXUpA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>           
+                                 <div class="blocAffiche" >
+                              <p class="chronoNumber">14</p>
+                           <h3 class="titleFilmChrono">Captain america : civil war (2016)</h3>
+                        <img class="bandeAnnonce" src="https://lasueur.com/wp-content/uploads/2016/04/Critique-Captain-America-Civil-War.jpg" alt="image film captein america civil war"></img>
+                     <button id="open-modal14" class="buttonTrailer" >Trailer</button>
+                  </div>   
+               <div class="pageTrailer" id="modalTrailer14" id="close-modal">
+            <iframe class="trailer" src="https://www.youtube.com/embed/BURXoDEa4Zg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>           
+         </div>
         <div class="rowBandeAnnonce">
-            <div>
-              <p class="chronoNumber">15</p>
-                 <h3 class="titleFilmChrono">Black Widow (2020)</h3>
-              <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/1ozB5VdmSPg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-           <div>
-              <p class="chronoNumber">16</p>
-                 <h3 class="titleFilmChrono">Black Panther (2018)</h3>
-              <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/noTuWxGmYlw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
-            </div>
-          </div> 
+            <div class="blocAffiche" >
+               <p class="chronoNumber">15</p>
+                  <h3 class="titleFilmChrono">Black Widow (2020</h3>
+                     <img class="bandeAnnonce" src="https://www.presse-citron.net/wordpress_prod/wp-content/uploads/2019/10/blackw-e1571119759670.jpg" alt="image film Black widow"></img>
+                        <button id="open-modal15" class="buttonTrailer" >Trailer</button>
+                           </div>   
+                              <div class="pageTrailer" id="modalTrailer15" id="close-modal">
+                                 <iframe class="trailer" src="https://www.youtube.com/embed/TL1mR5b16E0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>           
+                                 <div class="blocAffiche" >
+                              <p class="chronoNumber">16</p>
+                           <h3 class="titleFilmChrono">Black Panther (2018)</h3>
+                        <img class="bandeAnnonce" src="https://cdn.radiofrance.fr/s3/cruiser-production/2018/04/fcba60ab-c158-4e8e-8834-625c32050f6f/838_076_chl_100013.jpg" alt="image film Black panther"></img>
+                     <button id="open-modal16" class="buttonTrailer" >Trailer</button>
+                  </div>   
+               <div class="pageTrailer" id="modalTrailer16" id="close-modal">
+            <iframe class="trailer" src="https://www.youtube.com/embed/noTuWxGmYlw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>           
+         </div> 
           <div class="rowBandeAnnonce" id="film17">
-            <div >
+            <div class="blocAffiche" >
                <p class="chronoNumber">17</p>
                   <h3 class="titleFilmChrono">Spider-man : Homecoming (2017)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/ejNxxSiSy9U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-               <p class="chronoNumber">18</p>
-                  <h3 class="titleFilmChrono" >Les gardiens de la galaxie Vol.2 (2017)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/qe6EjVKba9Q" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
+                     <img class="bandeAnnonce" src="https://i2.wp.com/lecoindescritiquescine.com/wp-content/uploads/2017/11/spider-man-digital-domain-ferry-vfx-3.jpg" alt="image film Spiderman homecomming"></img>
+                        <button id="open-modal17" class="buttonTrailer" >Trailer</button>
+                           </div>   
+                              <div class="pageTrailer" id="modalTrailer17" id="close-modal">
+                                 <iframe class="trailer" src="https://www.youtube.com/embed/ejNxxSiSy9U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>           
+                                    <div class="blocAffiche" >
+                                 <p class="chronoNumber">18</p>
+                              <h3 class="titleFilmChrono">Les gardiens de la galaxie Vol.2 (2017)</h3>
+                           <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/05/les-gardiens-de-la-galaxie-vol-2-min.jpg" alt="image film les gardiens de la galaxie vol 2"></img>
+                        <button id="open-modal18" class="buttonTrailer" >Trailer</button>
+                     </div>   
+                  <div class="pageTrailer" id="modalTrailer18" id="close-modal">
+               <iframe class="trailer" src="https://www.youtube.com/embed/qe6EjVKba9Q" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>           
         </div>
         <div class="rowBandeAnnonce">
-            <div>
-              <p class="chronoNumber">19</p>
-                 <h3 class="titleFilmChrono">Doctor Strange (2016)</h3>
-              <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/r849NGQZqbA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-           <div>
-              <p class="chronoNumber">20</p>
-                 <h3 class="titleFilmChrono">Thor : Ragnarok (2017)</h3>
-              <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/P1H-WVYY6xA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
-            </div>
-          </div> 
+         <div class="blocAffiche" >
+            <p class="chronoNumber">19</p>
+               <h3 class="titleFilmChrono">Doctor Strange (2016)</h3>
+                  <img class="bandeAnnonce" src="https://www.journaldugeek.com/content/uploads/2018/01/doctor-strange-trailer-poster-comic-con-640x320.jpg" alt="image film Docteur Strange"></img>
+                     <button id="open-modal19" class="buttonTrailer" >Trailer</button>
+                        </div>   
+                           <div class="pageTrailer" id="modalTrailer19" id="close-modal">
+                              <iframe class="trailer" src="https://www.youtube.com/embed/r849NGQZqbA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>           
+                                 <div class="blocAffiche" >
+                              <p class="chronoNumber">20</p>
+                           <h3 class="titleFilmChrono">Thor : Ragnarok (2017)</h3>
+                        <img class="bandeAnnonce" src="https://blog.comic-con-paris.com/wp-content/uploads/2019/05/thor-ragnarok-min.jpg" alt="image film Thor ragnarok"></img>
+                     <button id="open-modal20" class="buttonTrailer" >Trailer</button>
+                  </div>   
+               <div class="pageTrailer" id="modalTrailer20" id="close-modal">
+            <iframe class="trailer" src="https://www.youtube.com/embed/P1H-WVYY6xA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>           
+         </div> 
           <div class="rowBandeAnnonce" id="film21">
-            <div >
+            <div class="blocAffiche" >
                <p class="chronoNumber">21</p>
                   <h3 class="titleFilmChrono">Avengers : Infinity War (2018)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/eIWs2IUr3Vs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <img class="bandeAnnonce" src="https://static.lpnt.fr/images/2018/04/24/14582550lpw-14582706-article-jpg_5189873_980x426.jpg" alt="image film Avengers infinity war"></img>
+                        <button id="open-modal21" class="buttonTrailer" >Trailer</button>
+                           </div>   
+                              <div class="pageTrailer" id="modalTrailer21" id="close-modal">
+                                 <iframe class="trailer" src="https://www.youtube.com/embed/eIWs2IUr3Vs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>           
+                                    <div class="blocAffiche" >
+                                 <p class="chronoNumber">22</p>
+                              <h3 class="titleFilmChrono">Ant-man et la Guêpe (2018)</h3>
+                           <img class="bandeAnnonce" src="https://thumb.canalplus.pro/http/unsafe/1280x720/filters:quality(%7BimageQualityPercentage%7D)/img-hapi.canalplus.pro/ServiceImage/ImageID/85891300" alt="image film Antman et la guepe"></img>
+                        <button id="open-modal22" class="buttonTrailer" >Trailer</button>
+                     </div>   
+                  <div class="pageTrailer" id="modalTrailer22" id="close-modal">
+               <iframe class="trailer" src="https://www.youtube.com/embed/A5jzpMR6rv4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>           
             </div>
-            <div>
-               <p class="chronoNumber">22</p>
-                  <h3 class="titleFilmChrono" >Ant-man et la Guêpe (2018)</h3>
-               <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/A5jzpMR6rv4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-        </div>
         <div class="rowBandeAnnonce">
-            <div>
-              <p class="chronoNumber">23</p>
-                 <h3 class="titleFilmChrono">Avengers : Endgame (2019)</h3>
-              <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/wV-Q0o2OQjQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-           <div>
-              <p class="chronoNumber">24</p>
-                 <h3 class="titleFilmChrono">Spider-man : Far from home 2019</h3>
-              <iframe class="bandeAnnonce" src="https://www.youtube.com/embed/SFoCPkEfHEM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
-            </div>
-          </div>  
+            <div class="blocAffiche" >
+               <p class="chronoNumber">23</p>
+                  <h3 class="titleFilmChrono">Avengers : Endgame (2019)</h3>
+                     <img class="bandeAnnonce" src="https://www.presse-citron.net/wordpress_prod/wp-content/uploads/2019/04/Critique-Avengers-Endgame.jpg" alt="image film Avenger endgame"></img>
+                        <button id="open-modal23" class="buttonTrailer" >Trailer</button>
+                           </div>   
+                              <div class="pageTrailer" id="modalTrailer23" id="close-modal">
+                                 <iframe class="trailer" src="https://www.youtube.com/embed/wV-Q0o2OQjQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>           
+                                 <div class="blocAffiche" >
+                              <p class="chronoNumber">24</p>
+                           <h3 class="titleFilmChrono">Spider-man : Far from home (2019))</h3>
+                        <img class="bandeAnnonce" src="https://www.journaldugeek.com/content/uploads/2019/06/spiderman-far-from-home-1172557-1280x0-640x360.jpeg" alt="image film Spiderman far home"></img>
+                     <button id="open-modal24" class="buttonTrailer" >Trailer</button>
+                  </div>   
+               <div class="pageTrailer" id="modalTrailer24" id="close-modal">
+            <iframe class="trailer" src="https://www.youtube.com/embed/SFoCPkEfHEM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>           
+         </div>  
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script type="text/javascript" src="script-chronologie.js"></script>
 </body>
 
 <!-- Footer -->
